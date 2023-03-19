@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    textarea {
+      margin-top: 5px;
+      width: 100%;
+    }
+    form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  </style>
+
+  <body>
+    <form action="info_post.php" method="post">
+      <ol>
+        <div class="question_container">
+          <label for="question_1">ჩამოთვალეთ პრემიერ ლიგის გუნდები:</label
+          ><br />
+          <textarea
+            name="question_1"
+            id="question_1"
+            cols="30"
+            rows="3"
+          ></textarea>
+        </div>
+
+        <hr />
+
+        <div class="question_container">
+          <label for="question_1">ჩამოთვალეთ ლა ლიგის გუნდები</label><br />
+          <textarea
+            name="question_2"
+            id="question_2"
+            cols="30"
+            rows="3"
+          ></textarea>
+        </div>
+
+        <hr />
+
+        <div class="question_container">
+          <li><h2>რამდენი ოქროს ბურთ აქვს მესის</h2></li>
+          <input type="radio" name="answer_1" value="A" />2<br />
+          <input type="radio" name="answer_1" value="B" />4<br />
+          <input type="radio" name="answer_1" value="C" />7<br />
+          <input type="radio" name="answer_1" value="D" />8<br />
+        </div>
+
+        <div class="question_container">
+          <li><h2>ესპანეთის დედაქალაქი</h2></li>
+          <input type="radio" name="answer_2" value="A" />ბარსელონა<br />
+          <input type="radio" name="answer_2" value="B" />მადრიდი<br />
+          <input type="radio" name="answer_2" value="C" />სევილია<br />
+          <input type="radio" name="answer_2" value="D" />ბილბაო<br />
+        </div>
+
+        <div class="question_container">
+          <li><h2>საქართველოს დედალაქი</h2></li>
+          <input type="radio" name="answer_3" value="A" />ბათუმი<br />
+          <input type="radio" name="answer_3" value="B" />ქუთაისი<br />
+          <input type="radio" name="answer_3" value="C" />მცხეთა<br />
+          <input type="radio" name="answer_3" value="D" />თბილისი<br />
+        </div>
+      </ol>
+
+      <input type="submit" value="SUBMIT" />
+    </form>
+  </body>
+</html>

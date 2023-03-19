@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    table, th, td {
+        border:1px solid black;
+    }
+    .form_container {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    input {
+        margin-bottom: 10px;
+    }
+</style>
+<body>
+    <form action="action_get.php" method="get" class="form_container">
+        <input type="text" name="name" placeholder="name"> 
+        <input type="text" name="surname" placeholder="surname">
+        <input type="text" name="role" placeholder="role">
+        <input type="text" name="salary" placeholder="salary">
+        <input type="text" name="tax" placeholder="tax%">
+        <input type="submit" value="SING UP">
+    </form>
+    
+</body>
+</html>

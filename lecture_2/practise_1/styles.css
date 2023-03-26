@@ -1,0 +1,18 @@
+.container {
+  border: 1px solid black;
+  padding: 20px;
+  margin: auto;
+  width: 50%;
+}
+
+.tb-questions {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tb-questions td,
+tr {
+  border: 1px solid silver;
+  vertical-align: top;
+  padding: 10px;
+}

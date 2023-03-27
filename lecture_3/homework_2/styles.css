@@ -1,0 +1,24 @@
+body {
+  width: 50%;
+  margin: auto;
+}
+form {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.error_message {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+td,
+tr {
+  border: 1px solid black;
+  padding: 10px;
+}

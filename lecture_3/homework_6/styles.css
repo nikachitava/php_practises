@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  gap: 5px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td,
+tr {
+  border: 1px solid black;
+  padding: 1.4em;
+}
+
+.container {
+  border: 5px solid black;
+  padding: 2em;
+}

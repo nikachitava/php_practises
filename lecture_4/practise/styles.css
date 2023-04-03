@@ -1,0 +1,22 @@
+.container {
+  border: solid 1px;
+  width: 50%;
+  padding: 20px;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+}
+
+.create,
+.content {
+  flex-grow: 1;
+}
+
+.create {
+  border-right: solid 1px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}

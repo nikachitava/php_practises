@@ -1,0 +1,130 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  width: 80%;
+  height: 100px;
+  background-color: lightblue;
+  margin: auto;
+}
+
+main {
+  width: 80%;
+  min-height: 150px;
+  margin: auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  background-color: lightseagreen;
+  margin-bottom: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 5px;
+  display: block;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+.content {
+  min-height: 200px;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+footer {
+  width: 80%;
+  height: 50px;
+  background-color: lightblue;
+  margin: auto;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+
+article {
+  border: solid 1px silver;
+  border-radius: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+article .img {
+  text-align: center;
+}
+
+article .img img {
+  width: 150px;
+  height: 130px;
+  border-radius: 20px;
+  border: solid 3px lightcyan;
+}
+
+article .post {
+  /* border: solid 1px lightcyan;  */
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+article .post h3 {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 5px;
+  border-bottom: solid 1px lightgray;
+}
+
+article .author {
+  font-style: italic;
+}
+
+article .post-info {
+  font-size: 0.8em;
+}
+
+article .description {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+article .read-more a {
+  text-decoration: none;
+}
+
+article .read-more a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 600px) {
+  main {
+    display: flex;
+  }
+
+  nav {
+    width: 25%;
+  }
+
+  .content {
+    width: 75%;
+  }
+
+  article {
+    display: flex;
+  }
+
+  article .img {
+    width: 200px;
+    text-align: left;
+  }
+}

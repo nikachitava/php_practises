@@ -1,0 +1,23 @@
+.cont {
+  border: 2px solid black;
+  padding: 10px;
+  margin: auto;
+  width: 70%;
+  display: flex;
+}
+
+.upload,
+.list {
+  width: 50%;
+  padding: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border: 3px solid black;
+  padding: 5px;
+}
